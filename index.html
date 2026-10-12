@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Automazione del catalogo prodotti | Aretex</title>
+    <meta name="description" content="Aretex propone un POC per preparare aggiornamenti di catalogo, collegare schede tecniche e allineare i dati tra sito e gestionale, con verifica prima dell’importazione.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Automazione del catalogo prodotto | Aretex">
+    <meta property="og:description" content="Un progetto pilota per aggiornare cataloghi prodotto, abbinare schede tecniche e verificare i dati prima dell’importazione.">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:url" content="https://pastapomodoro.github.io/aretex-catalogo-poc/">
+    <link rel="canonical" href="https://pastapomodoro.github.io/aretex-catalogo-poc/">
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-lockup" href="#inizio" aria-label="Aretex, torna all'inizio">
+        <img class="brand-emblem" src="assets/brand/ARETEX_LOGO.png" alt="">
+        <img class="brand-wordmark" src="assets/brand/ARETEX-wordmark.png" alt="ARETEX">
+      </a>
+      <a class="header-cta" href="#pilota">Valuta un progetto pilota</a>
+    </header>
+
+    <main id="inizio">
+      <section class="hero page-grid" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="hero-context">POC Aretex per la gestione del catalogo prodotto</p>
+          <h1 id="hero-title">Meno passaggi manuali<br>per aggiornare il catalogo</h1>
+          <p class="hero-lede">Quando schede, descrizioni e documenti sono distribuiti tra sito e gestionale, anche una modifica semplice comporta copie e controlli. Il POC verifica come preparare questi aggiornamenti per più prodotti, lasciando al team la revisione prima dell’importazione.</p>
+        <a class="button-outline" href="#flusso">Guarda come si svolge il test</a>
+        </div>
+        <aside class="hero-note" aria-label="Per chi è il servizio">
+          <span class="note-mark" aria-hidden="true"></span>
+          <p>Per PMI che aggiornano molte schede prodotto e lavorano con dati distribuiti tra più strumenti.</p>
+          <p class="note-small">Il test parte dai file e dalle procedure che l’azienda usa già.</p>
+        </aside>
+        <div class="hero-index" aria-hidden="true">ARETEX / ITALIA / 2026</div>
+      </section>
+
+      <section class="flow-section" id="flusso" aria-labelledby="flow-title">
+        <div class="section-heading page-grid">
+          <p class="section-label">Come si svolge il test</p>
+          <h2 id="flow-title">Dai file di partenza<br>a un aggiornamento da controllare.</h2>
+          <p class="section-intro">Il flusso previsto confronta i dati concordati, propone gli abbinamenti per SKU e prepara un file di modifica. Il team controlla i risultati prima di importarli.</p>
+        </div>
+
+        <figure class="flow-figure page-grid">
+          <svg class="flow-map" viewBox="0 0 1200 350" role="img" aria-labelledby="flow-map-title flow-map-desc">
+            <title id="flow-map-title">Flusso di automazione del catalogo prodotto</title>
+            <desc id="flow-map-desc">Sito, gestionale, schede tecniche e immagini confluiscono in un processo di abbinamento e controllo. Il team verifica i dati prima di aggiornare il catalogo.</desc>
+            <defs>
+              <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M1 1 L9 5 L1 9" fill="none" stroke="currentColor" stroke-width="1.4"></path>
+              </marker>
+            </defs>
+            <path class="map-line" d="M315 175 H420" marker-end="url(#arrow)"></path>
+            <path class="map-line" d="M755 175 H860" marker-end="url(#arrow)"></path>
+            <rect class="map-node" x="25" y="45" width="290" height="260"></rect>
+            <rect class="map-core" x="425" y="45" width="330" height="260"></rect>
+            <rect class="map-node" x="865" y="45" width="310" height="260"></rect>
+            <text class="map-kicker" x="52" y="83">FONTI ESISTENTI</text>
+            <text class="map-label" x="52" y="128">Sito web</text>
+            <line class="map-rule" x1="52" y1="145" x2="285" y2="145"></line>
+            <text class="map-label" x="52" y="178">Gestionale</text>
+            <line class="map-rule" x1="52" y1="195" x2="285" y2="195"></line>
+            <text class="map-label" x="52" y="228">PDF tecnici</text>
+            <line class="map-rule" x1="52" y1="245" x2="285" y2="245"></line>
+            <text class="map-label" x="52" y="278">Immagini</text>
+            <text class="map-kicker map-kicker-light" x="455" y="83">LIVELLO OPERATIVO</text>
+            <text class="map-core-title" x="455" y="138">Abbinare</text>
+            <text class="map-core-title" x="455" y="181">Verificare</text>
+            <text class="map-core-title" x="455" y="224">Preparare</text>
+            <text class="map-core-note" x="455" y="272">Regole concordate con il team</text>
+            <text class="map-kicker" x="892" y="83">FILE DA RIVEDERE</text>
+            <text class="map-label" x="892" y="128">Campi aggiornati</text>
+            <line class="map-rule" x1="892" y1="145" x2="1147" y2="145"></line>
+            <text class="map-label" x="892" y="178">Documenti associati</text>
+            <line class="map-rule" x1="892" y1="195" x2="1147" y2="195"></line>
+            <text class="map-label" x="892" y="228">Immagini organizzate</text>
+            <line class="map-rule" x1="892" y1="245" x2="1147" y2="245"></line>
+            <text class="map-note" x="892" y="278">In attesa di approvazione</text>
+          </svg>
+          <ol class="flow-mobile" aria-label="Fasi del flusso">
+            <li><span>01</span><div><strong>Raccogli</strong><p>Sito, gestionale, schede tecniche e immagini.</p></div></li>
+            <li><span>02</span><div><strong>Abbina e verifica</strong><p>Il processo collega i documenti ai codici prodotto e prepara i dati da controllare.</p></div></li>
+            <li><span>03</span><div><strong>Aggiorna</strong><p>Il team approva le modifiche prima di riportarle nel catalogo.</p></div></li>
+          </ol>
+          <figcaption>Prima del test si verificano formati dei file, permessi e modalità d’importazione.</figcaption>
+        </figure>
+      </section>
+
+      <section class="capabilities page-grid" aria-labelledby="capabilities-title">
+        <div class="capabilities-heading">
+          <p class="section-label">Attività da valutare</p>
+          <h2 id="capabilities-title">Quale aggiornamento richiede più lavoro al tuo team?</h2>
+        </div>
+        <div class="capability-list">
+          <article class="capability-row">
+            <h3>Aggiornamenti in blocco</h3>
+            <p>Preparare le modifiche ai campi selezionati per aggiornare più prodotti in un solo passaggio.</p>
+          </article>
+          <article class="capability-row">
+            <h3>Schede tecniche abbinate</h3>
+            <p>Trovare il documento corretto per ciascun codice e segnalare le corrispondenze dubbie.</p>
+          </article>
+          <article class="capability-row">
+            <h3>Contenuti coerenti</h3>
+            <p>Riportare le descrizioni approvate dal sito al gestionale, o viceversa, sui prodotti interessati.</p>
+          </article>
+          <article class="capability-row">
+            <h3>Immagini pronte per la campagna</h3>
+            <p>Raccogliere le immagini selezionate e organizzarle per la consegna a marketing o stampa.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="scenario-section" aria-labelledby="scenario-title">
+        <div class="scenario-inner page-grid">
+          <div class="scenario-copy">
+            <p class="section-label">Scenario usato per stimare il test</p>
+            <h2 id="scenario-title">Quanto lavoro richiede oggi il catalogo?</h2>
+            <p>La stima parte da un catalogo ipotetico di circa 5.000 prodotti. Il pilot serve a misurare i tempi sul processo e sui dati dell’azienda.</p>
+          </div>
+          <dl class="scenario-metrics">
+            <div><dt>25.000</dt><dd>immagini da descrivere e organizzare</dd></div>
+            <div><dt>143</dt><dd>schede tecniche nel campione ipotizzato</dd></div>
+            <div><dt>quasi 5.000</dt><dd>prodotti nel perimetro potenziale</dd></div>
+            <div><dt>oltre 400 ore</dt><dd>stima per descrivere 25.000 immagini, da verificare</dd></div>
+          </dl>
+          <p class="scenario-footnote">Per allineare i testi, la prima stima è di circa 4 ore ogni 100 articoli. Il pilot verificherà il tempo sul processo reale.</p>
+        </div>
+      </section>
+
+      <section class="pilot-section page-grid" id="pilota" aria-labelledby="pilot-title">
+        <div class="pilot-intro">
+          <p class="section-label">Modalità del test</p>
+          <h2 id="pilot-title">Si parte da un lotto reale.</h2>
+          <p>Si sceglie un’attività ripetitiva e si confrontano tempi ed errori con la procedura attuale, usando un campione controllato.</p>
+        </div>
+        <ol class="pilot-steps">
+          <li><span class="step-index">01</span><div><h3>Definire fonti e campi</h3><p>Si stabilisce quale sistema fa fede, quali dati aggiornare e come il team li importa oggi.</p></div></li>
+          <li><span class="step-index">02</span><div><h3>Testare da 10 a 20 SKU</h3><p>Il primo lotto verifica formati e abbinamenti. Dopo aver valutato i risultati, si può estendere da 50 a 100 prodotti rappresentativi.</p></div></li>
+          <li><span class="step-index">03</span><div><h3>Confrontare tempi ed errori</h3><p>Si registrano il tempo per SKU, le correzioni, gli abbinamenti corretti e i casi da lasciare in sospeso.</p></div></li>
+        </ol>
+        <div class="pilot-note">
+          <span class="note-mark" aria-hidden="true"></span>
+          <p>Il primo test può partire da un export e restituire un file separato. Accesso e importazione si definiscono dopo aver verificato sistemi e permessi.</p>
+        </div>
+        <a class="button-outline pilot-cta" href="#domande">Verifica i requisiti del test</a>
+      </section>
+
+      <section class="faq-section page-grid" id="domande" aria-labelledby="faq-title">
+        <div>
+          <p class="section-label">Domande pratiche</p>
+          <h2 id="faq-title">Dubbi pratici.</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Che accesso serve per il test?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>Il primo test può usare un export controllato. API e altre modalità si valutano in base al sito, al gestionale e ai permessi disponibili.</p>
+          </details>
+          <details>
+            <summary>Chi approva gli aggiornamenti?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>Il team verifica il file dei risultati. Durante il POC le modifiche non vengono applicate senza l’approvazione concordata.</p>
+          </details>
+          <details>
+            <summary>Da cosa dipende il costo?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>Dal tipo di lavorazione, dalla qualità dei dati e dal collegamento richiesto. La proposta distingue lo sviluppo da eventuali licenze, servizi cloud e supporto successivo.</p>
+          </details>
+          <details>
+            <summary>Quali materiali servono?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>Un export dei prodotti, le schede tecniche e le immagini del campione, più una descrizione della procedura attuale. Per la valutazione iniziale si possono rimuovere i dati non necessari.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand-lockup" href="#inizio" aria-label="Aretex, torna all'inizio">
+        <img class="brand-emblem" src="assets/brand/ARETEX_LOGO.png" alt="">
+        <img class="brand-wordmark" src="assets/brand/ARETEX-wordmark.png" alt="ARETEX">
+      </a>
+      <p>Automazione del catalogo prodotto · Progetto pilota</p>
+      <span>© 2026 Aretex</span>
+    </footer>
+  </body>
+</html>
